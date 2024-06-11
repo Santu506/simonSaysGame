@@ -97,3 +97,13 @@ function resetGame(){
     level = 0;
     started = false;
 }
+
+let mobBtn = document.querySelector(".mobile");
+mobBtn.addEventListener("click",()=>{
+    resetGame();
+    if(started == false ){
+        console.log("game is started");
+        started = true;
+        levelUp();
+    }
+});
