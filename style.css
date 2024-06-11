@@ -36,3 +36,9 @@ body{
 .userFlash{
     background-color: black;
 }
+.mobile{
+    margin-top: 50px;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: aqua;
+}
